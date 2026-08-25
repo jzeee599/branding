@@ -1,11 +1,11 @@
-# SVLSG GitHub Pages version
+# SVLSG standalone case study
 
-This folder is a lightweight standalone recreation of the SVLSG case-study page.
+A stripped-down standalone version of the SVLSG project page for GitHub Pages.
 
-## Deploy
-1. Upload `index.html`, `style.css`, and `script.js` to the root of a GitHub repository.
-2. Open **Settings → Pages**.
-3. Select **Deploy from a branch**, choose `main` and `/root`, then save.
+- No site header
+- No footer
+- No project navigation
+- Main case-study content only
+- Images currently load from the original Squarespace CDN
 
-## Images
-The current version references the original Squarespace CDN image URLs so the page can be deployed immediately. For a fully offline copy, download the images into an `assets/` folder and replace the `src` paths in `index.html`.
+Upload the contents of this folder to the root of a GitHub repository and enable GitHub Pages.
